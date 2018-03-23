@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255D363E20453F9F0083A7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D363D20453F9F0083A7B3 /* AppDelegate.swift */; };
+		255D364020453F9F0083A7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D363F20453F9F0083A7B3 /* ViewController.swift */; };
+		255D364320453F9F0083A7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255D364120453F9F0083A7B3 /* Main.storyboard */; };
+		255D364520453FA00083A7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255D364420453FA00083A7B3 /* Assets.xcassets */; };
+		255D364820453FA00083A7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255D364620453FA00083A7B3 /* LaunchScreen.storyboard */; };
+		255D365320453FA00083A7B3 /* Crane_Lift_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D365220453FA00083A7B3 /* Crane_Lift_ViewTests.swift */; };
+		255D365E20453FA00083A7B3 /* Crane_Lift_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D365D20453FA00083A7B3 /* Crane_Lift_ViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255D364F20453FA00083A7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255D363220453F9F0083A7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255D363920453F9F0083A7B3;
+			remoteInfo = "Crane Lift View";
+		};
+		255D365A20453FA00083A7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255D363220453F9F0083A7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255D363920453F9F0083A7B3;
+			remoteInfo = "Crane Lift View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255D363A20453F9F0083A7B3 /* Crane Lift View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crane Lift View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255D363D20453F9F0083A7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		255D363F20453F9F0083A7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		255D364220453F9F0083A7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255D364420453FA00083A7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255D364720453FA00083A7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		255D364920453FA00083A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255D364E20453FA00083A7B3 /* Crane Lift ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crane Lift ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255D365220453FA00083A7B3 /* Crane_Lift_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crane_Lift_ViewTests.swift; sourceTree = "<group>"; };
+		255D365420453FA00083A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255D365920453FA00083A7B3 /* Crane Lift ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crane Lift ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255D365D20453FA00083A7B3 /* Crane_Lift_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crane_Lift_ViewUITests.swift; sourceTree = "<group>"; };
+		255D365F20453FA00083A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255D363720453F9F0083A7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255D364B20453FA00083A7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255D365620453FA00083A7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255D363120453F9F0083A7B3 = {
+			isa = PBXGroup;
+			children = (
+				255D363C20453F9F0083A7B3 /* Crane Lift View */,
+				255D365120453FA00083A7B3 /* Crane Lift ViewTests */,
+				255D365C20453FA00083A7B3 /* Crane Lift ViewUITests */,
+				255D363B20453F9F0083A7B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255D363B20453F9F0083A7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255D363A20453F9F0083A7B3 /* Crane Lift View.app */,
+				255D364E20453FA00083A7B3 /* Crane Lift ViewTests.xctest */,
+				255D365920453FA00083A7B3 /* Crane Lift ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255D363C20453F9F0083A7B3 /* Crane Lift View */ = {
+			isa = PBXGroup;
+			children = (
+				255D363D20453F9F0083A7B3 /* AppDelegate.swift */,
+				255D363F20453F9F0083A7B3 /* ViewController.swift */,
+				255D364120453F9F0083A7B3 /* Main.storyboard */,
+				255D364420453FA00083A7B3 /* Assets.xcassets */,
+				255D364620453FA00083A7B3 /* LaunchScreen.storyboard */,
+				255D364920453FA00083A7B3 /* Info.plist */,
+			);
+			path = "Crane Lift View";
+			sourceTree = "<group>";
+		};
+		255D365120453FA00083A7B3 /* Crane Lift ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				255D365220453FA00083A7B3 /* Crane_Lift_ViewTests.swift */,
+				255D365420453FA00083A7B3 /* Info.plist */,
+			);
+			path = "Crane Lift ViewTests";
+			sourceTree = "<group>";
+		};
+		255D365C20453FA00083A7B3 /* Crane Lift ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				255D365D20453FA00083A7B3 /* Crane_Lift_ViewUITests.swift */,
+				255D365F20453FA00083A7B3 /* Info.plist */,
+			);
+			path = "Crane Lift ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255D363920453F9F0083A7B3 /* Crane Lift View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255D366220453FA00083A7B3 /* Build configuration list for PBXNativeTarget "Crane Lift View" */;
+			buildPhases = (
+				255D363620453F9F0083A7B3 /* Sources */,
+				255D363720453F9F0083A7B3 /* Frameworks */,
+				255D363820453F9F0083A7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crane Lift View";
+			productName = "Crane Lift View";
+			productReference = 255D363A20453F9F0083A7B3 /* Crane Lift View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255D364D20453FA00083A7B3 /* Crane Lift ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255D366520453FA00083A7B3 /* Build configuration list for PBXNativeTarget "Crane Lift ViewTests" */;
+			buildPhases = (
+				255D364A20453FA00083A7B3 /* Sources */,
+				255D364B20453FA00083A7B3 /* Frameworks */,
+				255D364C20453FA00083A7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255D365020453FA00083A7B3 /* PBXTargetDependency */,
+			);
+			name = "Crane Lift ViewTests";
+			productName = "Crane Lift ViewTests";
+			productReference = 255D364E20453FA00083A7B3 /* Crane Lift ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255D365820453FA00083A7B3 /* Crane Lift ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255D366820453FA00083A7B3 /* Build configuration list for PBXNativeTarget "Crane Lift ViewUITests" */;
+			buildPhases = (
+				255D365520453FA00083A7B3 /* Sources */,
+				255D365620453FA00083A7B3 /* Frameworks */,
+				255D365720453FA00083A7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255D365B20453FA00083A7B3 /* PBXTargetDependency */,
+			);
+			name = "Crane Lift ViewUITests";
+			productName = "Crane Lift ViewUITests";
+			productReference = 255D365920453FA00083A7B3 /* Crane Lift ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255D363220453F9F0083A7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Yutong Dong";
+				TargetAttributes = {
+					255D363920453F9F0083A7B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					255D364D20453FA00083A7B3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 255D363920453F9F0083A7B3;
+					};
+					255D365820453FA00083A7B3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 255D363920453F9F0083A7B3;
+					};
+				};
+			};
+			buildConfigurationList = 255D363520453F9F0083A7B3 /* Build configuration list for PBXProject "Crane Lift View" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255D363120453F9F0083A7B3;
+			productRefGroup = 255D363B20453F9F0083A7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255D363920453F9F0083A7B3 /* Crane Lift View */,
+				255D364D20453FA00083A7B3 /* Crane Lift ViewTests */,
+				255D365820453FA00083A7B3 /* Crane Lift ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255D363820453F9F0083A7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255D364820453FA00083A7B3 /* LaunchScreen.storyboard in Resources */,
+				255D364520453FA00083A7B3 /* Assets.xcassets in Resources */,
+				255D364320453F9F0083A7B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255D364C20453FA00083A7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255D365720453FA00083A7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255D363620453F9F0083A7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255D364020453F9F0083A7B3 /* ViewController.swift in Sources */,
+				255D363E20453F9F0083A7B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255D364A20453FA00083A7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255D365320453FA00083A7B3 /* Crane_Lift_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255D365520453FA00083A7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255D365E20453FA00083A7B3 /* Crane_Lift_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255D365020453FA00083A7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255D363920453F9F0083A7B3 /* Crane Lift View */;
+			targetProxy = 255D364F20453FA00083A7B3 /* PBXContainerItemProxy */;
+		};
+		255D365B20453FA00083A7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255D363920453F9F0083A7B3 /* Crane Lift View */;
+			targetProxy = 255D365A20453FA00083A7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255D364120453F9F0083A7B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255D364220453F9F0083A7B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255D364620453FA00083A7B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255D364720453FA00083A7B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255D366020453FA00083A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255D366120453FA00083A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255D366320453FA00083A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24HBL829LM;
+				INFOPLIST_FILE = "Crane Lift View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyutong.Crane-Lift-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255D366420453FA00083A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24HBL829LM;
+				INFOPLIST_FILE = "Crane Lift View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyutong.Crane-Lift-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255D366620453FA00083A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crane Lift ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyutong.Crane-Lift-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crane Lift View.app/Crane Lift View";
+			};
+			name = Debug;
+		};
+		255D366720453FA00083A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crane Lift ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyutong.Crane-Lift-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crane Lift View.app/Crane Lift View";
+			};
+			name = Release;
+		};
+		255D366920453FA00083A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crane Lift ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyutong.Crane-Lift-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crane Lift View";
+			};
+			name = Debug;
+		};
+		255D366A20453FA00083A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crane Lift ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dongyutong.Crane-Lift-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crane Lift View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255D363520453F9F0083A7B3 /* Build configuration list for PBXProject "Crane Lift View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255D366020453FA00083A7B3 /* Debug */,
+				255D366120453FA00083A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255D366220453FA00083A7B3 /* Build configuration list for PBXNativeTarget "Crane Lift View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255D366320453FA00083A7B3 /* Debug */,
+				255D366420453FA00083A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255D366520453FA00083A7B3 /* Build configuration list for PBXNativeTarget "Crane Lift ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255D366620453FA00083A7B3 /* Debug */,
+				255D366720453FA00083A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255D366820453FA00083A7B3 /* Build configuration list for PBXNativeTarget "Crane Lift ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255D366920453FA00083A7B3 /* Debug */,
+				255D366A20453FA00083A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255D363220453F9F0083A7B3 /* Project object */;
+}
